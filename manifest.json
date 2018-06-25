@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+	"name": "Multi Twitch App",
+	"short_name":"Multi Twitch+",
+  "app": {
+    "background":{
+        "scripts":["script.js"],
+        "persistent":false
+    }
+  },
+  "description": "Application to complete the Multi Twitch Extension",
+  "icons": {
+    "128": "icone128.png",
+    "64": "icone64.png",
+    "32": "icone32.png",
+    "16": "icone16.png"
+  },
+  "permissions": [
+    "https://api.twitch.tv/kraken/streams/",
+    "notifications",
+    "alwaysOnTopWindows",
+    "webview",
+    "storage"
+  ],
+  "version": "1.0",
+  "author":"Lupusanghren @Lupusanghrenn"
+}
